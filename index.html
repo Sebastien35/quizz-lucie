@@ -3,64 +3,173 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FAQ - Lorem Ipsum</title>
+    <title>FAQ - Bricoleurs Responsables</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="faq-container">
-      <h1>FAQ - Lorem Ipsum</h1>
+      <h1>FAQ - Bricoleurs Responsables</h1>
 
+      <!-- Section pour les étudiants -->
+      <h2>Je suis étudiant</h2>
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(1)">
-          <span>Question 1 : Qu'est-ce que Lorem Ipsum ?</span>
+          <span>Pourquoi la formule Étudiante est-elle plus adaptée aux étudiants ?</span>
           <span class="arrow">▼</span>
         </div>
         <div class="faq-answer" id="answer1">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+          <p>La formule Étudiante est spécialement conçue pour répondre aux besoins des étudiants qui ont souvent un budget limité. Elle offre un tarif réduit, des outils gratuits chaque mois, et des réductions importantes sur les locations d'outils.</p>
         </div>
       </div>
 
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(2)">
-          <span>Question 2 : Pourquoi utilisons-nous Lorem Ipsum ?</span>
+          <span>Que faut-il fournir comme documents pour pouvoir louer des outils ?</span>
           <span class="arrow">▼</span>
         </div>
         <div class="faq-answer" id="answer2">
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
-          </p>
+          <p>Pour louer des outils, vous devez fournir une pièce d’identité et un justificatif de domicile. Si vous souscrivez à une offre Étudiante, un justificatif étudiant sera également requis.</p>
         </div>
       </div>
 
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(3)">
-          <span>Question 3 : D'où vient Lorem Ipsum ?</span>
+          <span>Proposez-vous des tutoriels ou de l’assistance pour les étudiants qui ne savent pas utiliser les outils ?</span>
           <span class="arrow">▼</span>
         </div>
         <div class="faq-answer" id="answer3">
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur.
-          </p>
+          <p>Oui, nous proposons des tutoriels et une assistance pour aider les étudiants à utiliser les outils en toute sécurité et efficacité.</p>
+        </div>
+      </div>
+
+      <!-- Section pour les particuliers -->
+      <h2>Je suis un particulier</h2>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(4)">
+          <span>Puis-je choisir mon créneau de livraison ou de retour d'outils ?</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer" id="answer4">
+          <p>Oui, vous pouvez choisir votre créneau de livraison ou de retour d'outils pour plus de commodité.</p>
         </div>
       </div>
 
       <div class="faq-item">
-        <div class="faq-question" onclick="toggleAnswer(4)">
-          <span>Question 4 : Comment utiliser Lorem Ipsum ?</span>
+        <div class="faq-question" onclick="toggleAnswer(5)">
+          <span>Quels sont les délais de livraison pour ma location ?</span>
           <span class="arrow">▼</span>
         </div>
-        <div class="faq-answer" id="answer4">
-          <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
-          </p>
+        <div class="faq-answer" id="answer5">
+          <p>Les délais de livraison varient en fonction de la disponibilité des outils et de votre emplacement. En général, nous offrons une livraison rapide dans la région de Rennes et ses alentours.</p>
         </div>
       </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(6)">
+          <span>Si je n’ai pas besoin d’un outil finalement, puis-je annuler la location facilement ?</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer" id="answer6">
+          <p>Oui, vous pouvez annuler la location facilement en nous contactant dans les délais indiqués.</p>
+        </div>
+      </div>
+
+      <!-- Section pour les professionnels -->
+      <h2>Je suis un professionnel</h2>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(7)">
+          <span>Pourquoi opter pour l’offre Professionnel ?</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer" id="answer7">
+          <p>L'offre Professionnel est conçue pour les entreprises et professionnels ayant des besoins réguliers en outils. Elle propose des réductions illimitées, une assistance 24/24, et la possibilité de réserver des outils jusqu’à 12 mois à l’avance.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(8)">
+          <span>Proposez-vous des services de maintenance ou d'entretien pour les outils loués ?</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer" id="answer8">
+          <p>Oui, tous nos outils sont vérifiés et entretenus avant chaque location. Nous proposons également des services de maintenance supplémentaires sur demande.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(9)">
+          <span>Proposez-vous des ensembles d'outils ("kits") pour des projets spécifiques ?</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer" id="answer9">
+          <p>Oui, nous proposons des kits d'outils spécialement conçus pour des projets spécifiques, comme des rénovations ou des travaux de jardinage.</p>
+        </div>
+      </div>
+
+      <!-- Section pour les questions générales -->
+      <h2>Questions Générales</h2>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(10)">
+          <span>Comment savoir si un outil est disponible pour la location ?</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer" id="answer10">
+          <p>La disponibilité des outils est indiquée sur notre site. Vous pouvez également nous contacter pour vérifier la disponibilité en temps réel.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(11)">
+          <span>Que faire si l’outil que j’ai loué est endommagé ou perdu ?</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer" id="answer11">
+          <p>Si un outil est endommagé ou perdu, vous devrez couvrir les frais de réparation ou de remplacement. Nous vous fournirons un devis détaillé pour toute réclamation.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(12)">
+          <span>Puis-je laisser un avis après avoir utilisé un outil ?</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer" id="answer12">
+          <p>Oui, nous encourageons nos clients à laisser un avis après avoir utilisé un outil. Cela nous permet d'améliorer notre service et d'aider les futurs clients.</p>
+        </div>
+      </div>
+
+      <!-- Section pour les questions sur la durabilité et l'écologie -->
+      <h2>Questions sur la Durabilité et l'Écologie</h2>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(13)">
+          <span>Quelles sont vos pratiques en matière de durabilité et d’écologie ?</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer" id="answer13">
+          <p>Nous privilégions la location d'outils plutôt que l'achat pour réduire l'empreinte carbone. Nous utilisons également des véhicules électriques pour les livraisons et recyclons les outils en fin de vie.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(14)">
+          <span>Que faites-vous pour réduire votre empreinte carbone en tant qu'entreprise de location d'outils ?</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer" id="answer14">
+          <p>Nous utilisons des véhicules électriques pour les livraisons et limitons notre zone de livraison à Rennes et ses alentours pour réduire les émissions de CO2.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(15)">
+          <span>Proposez-vous des outils écologiques ou des options de location responsables ?</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer" id="answer15">
+          <p>La plupart de nos outils sont électriques, ce qui réduit la consommation d'énergie. Nous cherchons également à intégrer des outils écologiques dans notre catalogue.</p>
+        </div>
+      </div>
+
     </div>
 
     <script src="script.js"></script>
